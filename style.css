@@ -1,0 +1,101 @@
+body{
+    padding: 0px;
+    margin: 0px;
+    text-align: center;
+    font-family: sans-serif;
+}
+
+header{
+    background-color: rgb(58, 58, 58);
+    color: white;
+    padding: 20px;
+}
+
+a{
+    color: white;
+    text-decoration: none;
+    padding: 0px 10px;
+}
+
+a:hover{
+    color: brown;
+}
+
+#home{
+    padding: 20px;
+    background-color: rgb(255, 255, 255);
+}
+
+#about{
+    padding: 20px;
+    background-color: rgb(235, 235, 235);
+}
+
+#project{
+    padding: 20px;
+    background-color: rgb(215, 215, 215);
+}
+
+.project{
+    background-color: white;
+    border-radius: 10px;
+    padding: 5px;
+    margin: 20px 2px;
+}
+
+#project1,#project2{
+    transition-property: transform;
+    transition-duration: 0.3s;
+}
+
+#project1:hover{
+    transform: translateY(-10px);
+}
+
+#project2:hover{
+    transform: translateY(-10px);
+}
+
+#contact{
+    padding: 20px;
+    background-color: rgb(195, 195, 195);
+}
+
+#form{
+    background-color: white;
+    padding: 20px;
+    border-radius: 10px;
+    font-size: 15px;
+}
+
+#form .inp{
+    width: 530px;
+    height: 30px;
+    border: lightgray solid 0.1px;
+    border-radius: 5px;
+}
+
+textarea{
+    width: 530px;
+    height: 50px;
+    border: lightgray solid 0.1px;
+    border-radius: 5px;
+}
+
+#submit{
+    background-color: rgb(58, 58, 58);
+    color: white;
+    padding: 10px;
+    border: none;
+    margin: 25px;
+    width: 80px;
+    border-radius: 5px;
+}
+footer{
+    background-color: rgb(58, 58, 58);
+    color: white;
+    padding: 10px;
+    position: fixed;
+    bottom: 0px;
+    width: 100%;
+}
